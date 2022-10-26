@@ -1,0 +1,5 @@
+<div>
+  <h1 [ngStyle]="{ color: isAdmin ? 'red' : 'initial' }">{{ title }}</h1>
+  <button>View</button>
+  <button *ngIf="isAdmin">Edit</button>
+</div>
